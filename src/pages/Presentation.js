@@ -212,20 +212,18 @@ export default () => {
                 </Button>
                 <GitHubButton
                   className="mt-lg-2"
-                  href="https://github.com/themesberg/volt-react-dashboard"
+                  href="https://github.com/MdFarzan/Volt-Router-Edition"
                   data-size="large"
-                  data-show-count="true"
-                  aria-label="Star themesberg/volt-react-dashboard on GitHub"
+                  data-show-count="false"
+                  aria-label="Star volt-router-edition on GitHub"
                 >
-                  Star
+                  Get on Github
                 </GitHubButton>
               </div>
               <div className="d-flex justify-content-center flex-column mb-6 mb-lg-5 mt-5">
                 <div className="text-center">
                   <a href="https://themesberg.com" target="_blank">
-                    <p className="text-muted font-small m-0">
-                      Modified my Md Fazan
-                    </p>
+                    <h4 className="text-muted  m-0">Modified By Md Fazan</h4>
                   </a>
                 </div>
               </div>
@@ -679,7 +677,9 @@ export default () => {
         <Container>
           <Row>
             <Col xs={12} lg={8}>
-              <h2 className="fw-light mb-3">Download or upgrade to pro</h2>
+              <h2 className="fw-light mb-3">
+                Use this or Explore the original
+              </h2>
               <p className="lead mb-4 me-lg-6">
                 If you think is free version not enough for you? Check out the
                 premium version of Volt React Dashboard in the following
