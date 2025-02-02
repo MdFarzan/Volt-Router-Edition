@@ -37,7 +37,7 @@ import {
   Badge,
 } from "@themesberg/react-bootstrap";
 import { Link } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
+import { HashLink, href } from "react-router-hash-link";
 import Code from "../components/CodeEditor";
 import GitHubButton from "react-github-btn";
 
@@ -172,8 +172,7 @@ export default () => {
               </Nav>
             </Navbar.Collapse>
             <Button
-              as={HashLink}
-              to="#download"
+              href="https://github.com/MdFarzan/Volt-Router-Edition"
               variant="outline-white"
               className="ms-3"
             >
